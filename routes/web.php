@@ -17,14 +17,14 @@ Route::get('/', function () {
     return view('list');
 });
 Route::get('/as3100', function () {
-    return view('list');
+    return view('as3100');
 });
 Route::get('/as10000', function () {
-    return view('list');
+    return view('as10000');
 });
 Route::get('/as2022', function () {
-    return view('list');
+    return view('as2022');
 });
 Route::get('/admin', function () {
-    return view('list');
+    return view('admin');
 });

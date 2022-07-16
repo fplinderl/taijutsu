@@ -36,7 +36,7 @@ class UserController extends Controller
 
     public function store(Request $request)
     {
-        $data = $request->only('name', 'phone', 'address');
+        $data = $request->only('name', 'phone', 'address', 'url');
         $user = $this->user->create($data);
         return $this->responseSuccess($user);
     }
@@ -47,7 +47,7 @@ class UserController extends Controller
         if (!$user) {
             return $this->responseError('User not found');
         }
-        $data = $request->only('name', 'phone', 'address');
+        $data = $request->only('name', 'phone', 'address', 'url');
         $user->update($data);
         return $this->responseSuccess($user);
     }

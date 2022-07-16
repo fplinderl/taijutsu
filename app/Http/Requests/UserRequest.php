@@ -25,7 +25,6 @@ class UserRequest extends FormRequest
     {
         return [
             'name' => [
-                'required',
                 'string'
             ],
             'phone' => [
@@ -33,7 +32,6 @@ class UserRequest extends FormRequest
                 'regex:/^(09|01|08|03|07|05)[0-9]{8}$/'
             ],
             'address' => [
-                'required',
             ]
         ];
     }
