@@ -56,7 +56,7 @@ function deleteUser(id) {
     })
 }
 
-function getUser(link) {
+function getUser(link='https://taijutsu.info/api/user') {
     $ajax({
         url: link
     }).then(data => {
