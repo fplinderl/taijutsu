@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    color: #424242;
+    background-color: #fff;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: #f0f0f0;
+    padding: 1rem 0;
+}
+.header img{
+    max-width: 100%;
+    height: auto;
+}
+.footer{
+    background-color: #f0f0f0;
+    font-size: 0.8rem;
+    border-top: 1px solid black;
+    padding: 1rem 10rem;
+}
+.footer .title{
+    margin-top: 0.1rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+.footer .info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footer .info a{
+    text-decoration: none;
+}
+.footer .info span{
+    padding: 0 1rem;
+}
+.content{
+    flex-grow: 1;
+}
+.content .list-title{
+    padding: 0.6rem;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content .list{
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+.content .element{
+    text-decoration: none;
+    color: #424242;
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.content .element:hover img{
+    opacity: .7;
+}
+.content .element .card{
+    border: none;
+}
+.content .element .card-body{
+    border-top: 2px solid rgb(21, 21, 21);
+    padding-left: 0;
+    padding-right: 0;
+}
+.content .element h2{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+@media screen and (max-width: 720px) {
+    .footer .info{
+        justify-content: center;
+    }
+}

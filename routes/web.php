@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('list');
+});
+Route::get('/as3100', function () {
+    return view('list');
+});
+Route::get('/as10000', function () {
+    return view('list');
+});
+Route::get('/as2022', function () {
+    return view('list');
+});
+Route::get('/admin', function () {
+    return view('list');
 });
