@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class = "modal-footer">
-                    <button type = "button" class = "btn btn-primary" id = "submit" onclick = "addUser()">
+                    <button type = "button"  class = "btn btn-primary" id = "submit" onclick = "addUser()">
                         Lưu thông tin tư vấn
                     </button>
                 </div>
