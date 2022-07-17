@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/as2022', function () {
+    return view('as2022');
+});
 Route::get('/', function () {
     return view('list');
 });
@@ -21,9 +24,6 @@ Route::get('/as3100', function () {
 });
 Route::get('/as10000', function () {
     return view('as10000');
-});
-Route::get('/as2022', function () {
-    return view('as2022');
 });
 Route::get('/admin', function () {
     return view('admin');

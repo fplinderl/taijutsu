@@ -48,5 +48,46 @@
         </div>
     </div>
 </footer>
+<button id="chat" type = "button" class = "btn btn-primary" data-bs-toggle = "modal" data-bs-target = "#adduser">
+    <svg xmlns = "http://www.w3.org/2000/svg" width = "16" height = "16" fill = "currentColor" class = "bi bi-chat"
+         viewBox = "0 0 16 16">
+        <path
+            d = "M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"/>
+    </svg>
+</button>
+
+<div class = "modal fade" id = "adduser" tabindex = "-1" aria-labelledby = "exampleModalLabel" aria-hidden = "true">
+    <div class = "modal-dialog">
+        <div class = "modal-content">
+            <div class = "modal-header">
+                <button type = "button" class = "btn-close" data-bs-dismiss = "modal" aria-label = "Close"></button>
+            </div>
+            <form onsubmit="addUser()">
+                <div class = "modal-body">
+                    <div class = "mb-3">
+                        <label for = "name" class = "col-form-label">Tên: </label>
+                        <input type = "text" class = "form-control" id = "name">
+                    </div>
+                    <div class = "mb-3">
+                        <label for = "phone" class = "col-form-label">Số điện thoại: </label>
+                        <input type = "text" class = "form-control" id = "phone" oninput = "checkPhone(this)" required>
+                        <div class = "invalid-feedback">
+                            Please enter correct phone number
+                        </div>
+                    </div>
+                    <div class = "mb-3">
+                        <label for = "address" class = "col-form-label">Địa chỉ: </label>
+                        <input type = "text" class = "form-control" id = "address">
+                    </div>
+                </div>
+                <div class = "modal-footer">
+                    <button type = "button" class = "btn btn-primary" id = "submit" onclick = "addUser()">
+                        Lưu thông tin tư vấn
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>

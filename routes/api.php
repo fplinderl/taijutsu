@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::apiResource("user", \App\Http\Controllers\UserController::class);
+Route::apiResource("user", \App\Http\Controllers\UserController::class)->only('post');

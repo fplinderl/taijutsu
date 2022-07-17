@@ -1,8 +1,9 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 html,
 body {
     font-family: "Open Sans", sans-serif;
@@ -12,45 +13,71 @@ body {
     color: #424242;
     background-color: #fff;
 }
-body{
+
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-.header{
+
+.header {
     background-color: #f0f0f0;
     padding: 1rem 0;
 }
-.header img{
+
+.header img {
     max-width: 100%;
     height: auto;
 }
-.footer{
+
+.footer {
     background-color: #f0f0f0;
     font-size: 0.8rem;
     border-top: 1px solid black;
     padding: 1rem 10rem;
+    margin-top: 3rem;
 }
-.footer .title{
+
+.footer .title {
     margin-top: 0.1rem;
     padding: 1rem;
     font-weight: 700;
 }
-.footer .info{
+
+.footer .info {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.footer .info a{
+
+.footer .info a {
     text-decoration: none;
 }
-.footer .info span{
+
+.footer .info span {
     padding: 0 1rem;
 }
-.content{
+
+.content {
     flex-grow: 1;
 }
-.content .list-title{
+
+#chat {
+    position: fixed;
+    border-radius: 50%;
+    top: 20vh;
+    left: 3vw;
+    transform: scale(1.5);
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.content .list-title {
     padding: 0.6rem;
     background-color: #000;
     color: white;
@@ -60,36 +87,82 @@ body{
     width: 100vw;
     left: 50%;
     transform: translateX(-50%);
+    margin-bottom: 2rem;
 }
-.content .list{
+
+.content .list {
     display: flex;
     width: fit-content;
     margin: 0 auto;
 }
-.content .element{
+
+.content .element {
     text-decoration: none;
     color: #424242;
     display: flex;
     justify-content: center;
     padding: 0 1rem;
 }
-.content .element:hover img{
+
+.content .element:hover img {
     opacity: .7;
 }
-.content .element .card{
+
+.content .element .card {
     border: none;
 }
-.content .element .card-body{
+
+.content .element .card-body {
     border-top: 2px solid rgb(21, 21, 21);
     padding-left: 0;
     padding-right: 0;
 }
-.content .element h2{
+
+.content .element h2 {
     font-size: 0.8rem;
     font-weight: 700;
 }
+
+.content {
+    max-width: 960px;
+}
+
+.carousel-indicators {
+    bottom: -60px;
+    width: 100%;
+    padding: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 140px;
+    height: 90px;
+    margin-right: 0px;
+    margin-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.mg_bt {
+    margin-bottom: 110px;
+}
+
 @media screen and (max-width: 720px) {
-    .footer .info{
+    .footer {
+        padding: 0rem;
+        padding-bottom: 1rem;
+    }
+    .footer .info {
         justify-content: center;
+    }
+    .footer .title {
+        text-align: center;
+    }
+    #chat {
+        top: 40vh;
+        left: 3vw;
     }
 }
