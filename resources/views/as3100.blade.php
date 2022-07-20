@@ -59,6 +59,7 @@
                 </tr>
                 <tr>
                     <td colspan = "2">
+                        <p>Là bản nâng cấp của AS 3000</p>
                         <p>Ghế nội địa Nhật Taijutsu AS3100 gồm các tính năng:</p>
                         <p> ⁃ gồm 10 bài tập tự động (auto)</p>
                         <p> ⁃ 6 thủ thuật massage mô phỏng theo tay người : xoa, bóp, đấm, ấn, vỗ, miết</p>

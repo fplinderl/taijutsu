@@ -59,7 +59,6 @@
                         <p>☑️ 06 chức năng Massage được thiết lập sẵn trên thiết bị giúp cho việc vận hành trở lên đơn giản hơn cho người sử dụng.</p>
                         <p>☑️ Hơn 20 kỹ thuật Massage có thể được tùy biến theo sở thích.</p>
                         <p>☑️ Kỹ thuật Massage không trọng lực thế hệ mới thoải mái hơn.</p>
-                        <p>☑️ Kết nối âm thành vòm T-Sound™ với thiết bị sử dụng Bluetooth</p>
                         <p>☑️ Chất liệu da microfiber mềm mại và có độ bền cao.</p>
                         <p>☑️ Cơ chế lùi tường tiết kiệm không gian sống.</p>
                         <p>AS-2200 NEW 2021 ưu đãi luôn top đầu</p>

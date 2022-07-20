@@ -79,7 +79,8 @@
                             và tê tay</p>
                         <p>💯Chế độ mát xa thắt lưng eo chữa các bệnh liên quan đến thoái hoá các đốt sống từ L1-L5,
                             nâng cao chức năng thận, cải thiện triệu chứng ê mông và tê mỏi thần kinh toạ.</p>
-                        <p> 💯Chế độ kéo dãn cơ thể giảm tình trạng căng cơ, mệt mỏi.</p>
+                        <p>💯Chế độ kéo dãn cơ thể giảm tình trạng căng cơ, mệt mỏi.</p>
+                        <p>☑️☑️Kết nối âm thành vòm T-Sound™ với thiết bị sử dụng Bluetooth</p>
                         <p>☑️☑️Nhiệt hồng ngoại sưởi lưng💥💥.</p>
                         <p>☑️☑️Túi khí mát xa bố trị toàn bộ cơ thể: chân, mông, tay, vai.</p>
                         <p>☑️☑️Hệ thống bấm huyệt gan bàn chân.</p>
@@ -102,6 +103,7 @@
     <div class = "row">
         <img alt = "" src = "{{ asset('as10000-img/1.jpg') }}" alt = "Ghế massage thông minh: AS-10.000"/><br/>
         <img alt = "" src = "{{ asset('as10000-img/2.jpg') }}" alt = "Ghế massage thông minh: AS-10.000"/><br/>
+        <img alt = "" src = "{{ asset('as10000-img/6.jpg') }}" alt = "Ghế massage thông minh: AS-10.000"/>
         <img alt = "" src = "{{ asset('as10000-img/3.jpg') }}" alt = "Ghế massage thông minh: AS-10.000"/><br/>
         <img alt = "" src = "{{ asset('as10000-img/4.jpg') }}" alt = "Ghế massage thông minh: AS-10.000"/><br/>
         <img alt = "" src = "{{ asset('as10000-img/5.jpg') }}" alt = "Ghế massage thông minh: AS-10.000"/>

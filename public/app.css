@@ -30,6 +30,13 @@ body {
     height: auto;
 }
 
+.header .madeIn {
+    margin-left: -4.8rem;
+    color: #46708f;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
 .footer {
     background-color: #f0f0f0;
     font-size: 0.8rem;
@@ -64,17 +71,33 @@ body {
 
 #chat {
     position: fixed;
-    border-radius: 50%;
-    top: 20vh;
-    left: 3vw;
+    border-radius: 20%;
+    bottom: 20vh;
+    right: 3vw;
     transform: scale(1.5);
     display: flex;
-    width: 2rem;
-    height: 2rem;
     padding: 0;
     justify-content: center;
     align-items: center;
     z-index: 1000;
+}
+
+#chat svg {
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    border: 2px solid #FF2E3D;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+#chat div {
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: -2rem;
+    width: 200%;
+    font-weight: 700;
+    color: #FF2E3D;
 }
 
 .content .list-title {
@@ -119,8 +142,17 @@ body {
 }
 
 .content .element h2 {
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
+}
+.content .element h3 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+#vid{
+    width: 100%;
+    height: 510px;
+    margin-bottom: 1rem;
 }
 
 .content {
@@ -155,12 +187,15 @@ body {
         padding: 0rem;
         padding-bottom: 1rem;
     }
+
     .footer .info {
         justify-content: center;
     }
+
     .footer .title {
         text-align: center;
     }
+
     #chat {
         top: 40vh;
         left: 3vw;

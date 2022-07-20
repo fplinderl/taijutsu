@@ -22,9 +22,9 @@ Route::get('/', function () {
 Route::get('/as3100', function () {
     return view('as3100');
 });
+Route::get('/as3000', function () {
+    return view('as3000');
+});
 Route::get('/as10000', function () {
     return view('as10000');
-});
-Route::get('/admin', function () {
-    return view('admin');
 });
