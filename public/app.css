@@ -97,7 +97,7 @@ body {
     bottom: -2rem;
     width: 200%;
     font-weight: 700;
-    color: #FF2E3D;
+    color: red;
 }
 
 .content .list-title {
@@ -197,7 +197,10 @@ body {
     }
 
     #chat {
-        top: 40vh;
-        left: 3vw;
+        bottom: 20vh;
+        right: 10vw;
+    }
+    #chat div{
+        width: 150%;
     }
 }
